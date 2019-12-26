@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.UserLocationActivity">
+
+    <LinearLayout
+        android:id="@+id/UserLocationActivity_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_r"
+            android:gravity="center"
+            android:text="Uploading Details May Take Up To a Minute!!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/state_spinner"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:drawable/btn_dropdown"
+            android:text="Select Your State"/>
+
+
+        <!-- <com.jaredrummler.materialspinner.MaterialSpinner
+             android:id="@+id/state_spinner"
+             android:prompt="@string/select_your_state"
+             android:background="@drawable/spinner_bg"
+             android:layout_margin="10dp"
+             android:textColor="#000000"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>-->
+       <!-- <Spinner
+            android:id="@+id/state_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:hint="Select your state"
+            android:padding="12dp"
+            android:fontFamily="@font/open_sans_r"
+            android:textColor="#000000"
+            android:textColorHint="#99b0bc" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/district_spinner"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:drawable/btn_dropdown"
+            android:text="Select Your District"/>
+
+
+       <!-- <Spinner
+            android:id="@+id/district_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:hint="Select your state"
+            android:padding="12dp"
+            android:fontFamily="@font/open_sans_r"
+            android:textColor="#000000"
+            android:textColorHint="#99b0bc" />-->
+        <TextView
+            android:id="@+id/taluk_wards_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:drawable/btn_dropdown"
+            android:text="Select Your Taluk/Wards"/>
+
+       <!-- <Spinner
+            android:id="@+id/taluk_wards_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:hint="Select your state"
+            android:padding="12dp"
+            android:fontFamily="@font/open_sans_r"
+            android:textColor="#000000"
+            android:textColorHint="#99b0bc" />-->
+
+        <!-- <com.jaredrummler.materialspinner.MaterialSpinner
+             android:id="@+id/taluk_wards_spinner"
+             android:prompt="@string/select_your_taluk"
+             android:layout_width="match_parent"
+             android:background="@drawable/spinner_bg"
+             android:layout_margin="10dp"
+             android:textColor="#000000"
+             android:layout_height="wrap_content"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hobli_spinner"
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:drawable/btn_dropdown"
+            android:text="Select Your Hobli"/>
+
+       <!-- <Spinner
+            android:id="@+id/hobli_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:hint="Select your state"
+            android:padding="12dp"
+            android:fontFamily="@font/open_sans_r"
+            android:textColor="#000000"
+            android:textColorHint="#99b0bc" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Your Location"
+            android:id="@+id/confirm_location"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:padding="5dp"
+            android:background="#03A9F4"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/location"
+            android:background="@drawable/edittext_bg"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:text="Location"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Click NEXT to confirm Your Location"/>
+
+
+        <Button
+            android:id="@+id/submit_kyc_location"
+            android:layout_width="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:background="@drawable/buttn_bg"
+            android:text="NEXT"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

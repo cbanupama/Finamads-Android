@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153830617196",
+    "firebase_url": "https://finam-ads.firebaseio.com",
+    "project_id": "finam-ads",
+    "storage_bucket": "finam-ads.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153830617196:android:5f0ef283c016f483cf2849",
+        "android_client_info": {
+          "package_name": "com.finamads.finamads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153830617196-qn1ps37qhubj4pi44q0h4agu0l3fv5cu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finamads.finamads",
+            "certificate_hash": "5755e99ba10bde72646ab6a038de67fa891e1eb5"
+          }
+        },
+        {
+          "client_id": "153830617196-jeesm74nt2k7o1vanlfnmqrnfo8b2c81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpwS49v4C0K9_jnm8s4ywt6-gH_kOB3TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153830617196-jeesm74nt2k7o1vanlfnmqrnfo8b2c81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

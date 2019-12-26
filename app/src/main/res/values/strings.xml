@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Finam Ads</string>
+    <string name="privacy_policy"><u>By Sining In,you agree to the terms and privacy policy of Finam Ads App</u></string>
+    <string name="verification_code_subtext">Please type the verification code sent to</string>
+    <string name="verification_code">OTP Verification</string>
+    <string name="validate">Validate</string>
+    <string name="msg_loading">Loading...</string>
+    <string name="select_your_state">Select your State</string>
+    <string name="select_your_district">Select your District</string>
+    <string name="select_your_taluk">Select your Taluk</string>
+    <string name="select_your_hobli">Select your Hobli</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Employee@fidelituscorp.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
